@@ -1,0 +1,60 @@
+/*-----ADD UNDERLINE AND BLUE UNDERLINE TO NAVIGATION LINKS---*/
+.nav-link {
+    text-decoration: underline;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+/*-----SET IFRAME ATTRIBUTES FOR FORMS AND GOOGLE MAP-----*/
+iframe {
+    width: 100%;
+    border: 0;
+    margin: 0;
+  }
+
+/*-----TESTIMONIAL CAROUSEL------*/
+.testimonial-carousel {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-slide {
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonial-slide img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #fff;
+}

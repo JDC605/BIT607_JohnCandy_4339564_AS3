@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!--BOOTSTRAP STYLESHEET-->
+    <link rel="stylesheet" href="style.css"> <!--LOCAL STYLESHEET-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!--BOOTSTRAP JAVASCRIPT-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> <!--BOOTSTRAP ICONS-->
+    <title>Snazzy Paws Grooming</title>
+</head>
+<body class="d-flex flex-column min-vh-100"> <!--KEEP FOOTER AT BOTTOM OF PAGE-->
+  <!--HEADER AND NAVIGATION MENU-->
+  <header class="container border-bottom">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src ="images/logo.png" alt="Snazzy Paws Grooming Logo" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="booking.html">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="privacy.html">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="staff/staffaccess.html">Staff</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--MAIN PAGE CONTENT, HEADING, DOG IMAGE, OUR MISSION, POPULAR SERVICES, TESTIMONIALS-->
+  <main>
+    <div class="container d-flex justify-content-center border-bottom">
+      <h1>Home</h1> <!--MAIN HEADING-->
+    </div>
+      
+    <div class="bg-body-tertiary py-2 my-3"> <!--SET PAGE BACKGROUND LIGHT GREY-->
+      <!--MAIN DOG IMAGE BELOW MAIN HEADING-->
+      <div class="container d-flex justify-content-center my-3">
+        <img src="images/dogsinlinehome.png" alt="Dogs sitting in a line" class="img-fluid" aria-hidden="true">
+      </div>
+      <!--SUB HEADING "OUR MISSION" WITH PLACEHOLDER FOR TEXT-->
+      <div class="mx-auto text-center my-3 w-25">
+        <h2>Our Mission</h2> <!--SECONDARY HEADING-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, sint at. Eligendi mollitia ad, voluptate repudiandae error deserunt. At doloremque omnis sunt blanditiis sit. Vel, quas. Dignissimos nisi at fuga!</p>
+      </div>
+      <!--SUB HEADING "POPULAR SERVICES"-->
+      <div class="container d-flex justify-content-center">
+        <h2>Popular Services</h2> <!--SECONDARY HEADING-->
+      </div>
+      <!--GRID POPULAR SERVICES-->
+      <div class="container my-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!--FIRST COLUMN "BATH AND BRUSH"-->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Bathandbrush.jpg" alt="Dog having a bath" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Bath and brush</h5>
+                  <h5 class="card-title">$25 - $50</h5>
+                </div>
+                <p class="card-text">Shampoo, blow-dry, brush-out and nail trim.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Bath+and+brush+$25+-+$50" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--SECOND COLUMN "NAIL TRIM"-->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Nailtrim.jpg" alt="Dog paw getting a nail trim" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Nail trim</h5>
+                  <h5 class="card-title">$10 - $20</h5>
+                </div>
+                <p class="card-text">Trim nails and in some cases, filing.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Nail+trim+$10+-+$20" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--THIRD COLUMN "EXPRESS SERVICE"-->
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Expressservice.jpg" alt="Dog getting haircut with clippers" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Express service</h5>
+                  <h5 class="card-title">$15 - $25</h5>
+                </div>
+                <p class="card-text">For dogs that need minimal grooming or a quick touch-up.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Express+service+$15+-+$25" class="btn btn-primary mt-auto">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--SUB HEADING "TESTIMONIALS"-->
+      <div class="container d-flex justify-content-center">
+        <h2>Testimonials</h2> <!--SECONDARY HEADING-->
+      </div>
+      <!--TESTIMONIAL CAROUSEL-->
+      <div class="container pt-3 mt-4 bg-white rounded">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial-slide">
+                    <img src="images/manavatar.png" alt="Testimonial 1" class="rounded-circle">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum urna
+                        libero."</p>
+                    <p><strong>Joe Bloggs</strong>, Breed of dog</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-slide">
+                    <img src="images/manavatar.png" alt="Testimonial 2" class="rounded-circle">
+                    <p>"Sed eget eros quis urna viverra tincidunt eget a mi. Maecenas suscipit libero
+                        ligula."</p>
+                    <p><strong>John Smith</strong>, Breed of dog</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-slide">
+                    <img src="images/womanavatar.png" alt="Testimonial 3" class="rounded-circle">
+                    <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+                    <p><strong>Jane Doe</strong>, Breed of dog</p>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--FOOTER, QUICK LINKS, OPEN HOURS, SOCIAL MEDIA LINKS-->
+  <footer class="container pt-3 border-top mt-auto">
+    <div class="row justify-content-between">
+      <!--FIRST COLUMN "QUICK LINKS"-->
+      <div class="col-6 col-md-2 mb-3 text-center">
+        <h5>Quick Links</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-body-secondary">Services</a></li>
+          <li class="nav-item mb-2"><a href="gallery.html" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+          <li class="nav-item mb-2"><a href="booking.html" class="nav-link p-0 text-body-secondary">Booking</a></li>
+          <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
+          <li class="nav-item mb-2"><a href="privacy.html" class="nav-link p-0 text-body-secondary">Privacy</a></li>
+          <li class="nav-item mb-2"><a href="staff/staffaccess.html" class="nav-link p-0 text-body-secondary">Staff</a></li>
+        </ul>
+      </div>
+      <!--SECOND COLUMN "OPEN HOURS"-->
+      <div class="col-6 col-md-3 mb-3 text-center">
+        <h5>Open Hours</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">Monday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Tuesday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Wednesday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Thursday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Friday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Saturday: 8.00 am - 12.00 pm</li>
+          <li class="nav-item mb-2">Sunday: Closed</li>
+        </ul>
+      </div>
+      <!--THIRD COLUMN "SOCIAL MEDIA"-->
+      <div class="col-6 col-md-2 mb-3 text-center">
+        <h5>Social Media</h5>
+        <ul class="nav flex-column">
+          <li class="mb-2"><a class="link-body-emphasis" href="#" aria-label="Facebook"><i class="bi bi-facebook h3" aria-hidden="true"></i> Facebook</a></li>
+          <li class="mb-2"><a class="link-body-emphasis" href="#" aria-label="Instagram"><i class="bi bi-instagram h3" aria-hidden="true"></i> Instagram</a></li>
+          <li class="mb-2"><a class="link-body-emphasis" href="#" aria-label="Linkedin"><i class="bi bi-linkedin h3" aria-hidden="true"></i> Linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--COPY RIGHT INFORMATION-->
+    <div class="container d-flex flex-column flex-sm-row pt-4 border-top">
+      <p>&copy; 2025 Snazzy Paws Grooming.</p>
+    </div>
+  </footer>
+</body>
+</html>
