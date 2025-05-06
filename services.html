@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="We have all the services your require to make your furry friend feel like royalty">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!--BOOTSTRAP STYLESHEET-->
+  <link rel="stylesheet" href="style.css"> <!--LOCAL STYLESHEET-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!--BOOTSTRAP JAVASCRIPT-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> <!--BOOTSTRAP ICONS-->
+  <title>Snazzy Paws Grooming Services</title>
+</head>
+<body class="d-flex flex-column min-vh-100"> <!--KEEP FOOTER AT BOTTOM OF PAGE-->
+  <!--HEADER AND NAVIGATION MENU-->
+  <header class="container border-bottom">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src ="images/logo.png" alt="Snazzy Paws Grooming Logo" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="booking.html">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="privacy.html">Privacy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="staff/staffaccess.html">Staff</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--MAIN PAGE CONTENT, HEADING, GRID FOR SERVICES-->
+  <main>
+    <div class="container d-flex justify-content-center border-bottom">
+      <h1>Services</h1> <!--MAIN HEADING-->
+    </div>
+
+    <div class="bg-body-tertiary p-2 my-3"> <!--SET PAGE BACKGROUND LIGHT GREY-->
+      <!--GRID FOR SERVICES-->
+      <div class="container my-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+          <!--BATH AND BRUSH SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Bathandbrush.jpg" alt="Dog having a bath" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Bath and brush</h5>
+                  <h5 class="card-title">$25 - $50</h5>
+                </div>
+                <p class="card-text">Shampoo, blow-dry, brush-out and nail trim.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Bath+and+brush+$25+-+$50" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--HAIRCUT SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Haircut.jpg" alt="Dog getting haircut with scissors" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Haircut</h5>
+                  <h5 class="card-title">$45 - $85</h5>
+                </div>
+                <p class="card-text">Bath, blow-dry, haircut (based on breed standard or owner's preference) and nail trim.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Haircut+$45+-+$85" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--NAIL TRIM SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Nailtrim.jpg" alt="Dog paw getting a nail trim" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Nail trim</h5>
+                  <h5 class="card-title">$10 - $20</h5>
+                </div>
+                <p class="card-text">Trim nails and in some cases, filing.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Nail+trim+$10+-+$20" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--EAR CLEANING SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Earcleaning.jpg" alt="Dog ear getting cleaned" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Ear cleaning</h5>
+                  <h5 class="card-title">$10 - $15</h5>
+                </div>
+                <p class="card-text">Gentle cleaning of ears to remove wax and debris.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Ear+cleaning+$10+-+$15" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--TEETH BRUSHING SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Teethbrushing.jpg" alt="Dog getting its teeth brushed" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Teeth brushing</h5>
+                  <h5 class="card-title">$10 - $15</h5>
+                </div>
+                <p class="card-text">Brushing with pet-safe toothpaste.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Teeth+brushing+$10+-+$15" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--DE-SHEDDING TREATMENT SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/De-sheddingtreatment.jpg" alt="Dog being brushed with de-shedding comb" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">De-shedding treatment</h5>
+                  <h5 class="card-title">$20 - $40</h5>
+                </div>
+                <p class="card-text">Special shampoo and undercoat removal.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=De-shedding+treatment+$20+-+$40" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--FLEA AND TICK TREATMENT SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Fleaandticktreatment.jpg" alt="Dog getting flea powder on coat" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Flea and tick treatment</h5>
+                  <h5 class="card-title">$10 - $30</h5>
+                </div>
+                <p class="card-text">Shampoo and preventative treatment.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Flea+and+tick+treatment+$10+-+$30" class="btn btn-primary">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--SPA PACKAGE SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Spapackage.jpg" alt="Dog wearing a robe" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Spa package</h5>
+                  <h5 class="card-title">$75 - $150</h5>
+                </div>
+                <p class="card-text">Bath, haircut, teeth brushing, nail trim and sometimes special scents or conditioners.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Spa+Package+$75+-+$150" class="btn btn-primary mt-auto">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--EXPRESS SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Expressservice.jpg" alt="Dog getting haircut with clippers" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Express service</h5>
+                  <h5 class="card-title">$15 - $25</h5>
+                </div>
+                <p class="card-text">For dogs that need minimal grooming or a quick touch-up.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Express+service+$15+-+$25" class="btn btn-primary mt-auto">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--MEDICATED BATH SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Medicatedbath.jpg" alt="Dog getting a medicated bath" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                <h5 class="card-title">Medicated bath</h5>
+                <h5 class="card-title">$20 - $40</h5>
+                </div>
+                <p class="card-text">For pets with skin conditions requiring special shampoo.</p>
+                <div class="mt-auto">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Medicated+bath+$20+-+$40" class="btn btn-primary mt-auto">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>          
+          <!--SPECIAL-BREED CUTS SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Special-breedcuts.jpg" alt="Poodle getting a styled haircut" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Special-breed cuts</h5>
+                  <h5 class="card-title">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWZUUMCg_0pbypaSIk5XOKVmrFvDZlpIJhgAd5SyLgSibwSw/viewform?usp=pp_url&entry.1705412791=Hello,+could+you+please+tell+me+the+price+for+a+special-breed+cut+with+the+following+details:%0A*+Breed+of+dog%0A*+Length+of+hair+(Short+/+Long)%0A*+Description+of+style" class="btn btn-primary">Contact</a> for price
+                  </h5>
+                </div>
+                <p class="card-text">Breed-specific cuts or styling based breed cuts or customer preference.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Special-breed+cuts+(Contact+Snazzy+Paws+Grooming+for+price)" class="btn btn-primary mt-auto">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--PUPPY PACKAGE SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Puppypackage.jpg" alt="Puppy getting haircut with scissors" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Puppy package</h5>
+                  <h5 class="card-title">$30 - $60</h5>
+                </div>
+                <p class="card-text">Introductory grooming services tailored for puppies.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Puppy+package+$30+-+$60" class="btn btn-primary mt-auto">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--SENIOR DOG PACKAGE SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Seniordogpackage.jpg" alt="Old dog getting a brush" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Senior dog package</h5>
+                  <h5 class="card-title">$40 - $80</h5>
+                </div>
+                <p class="card-text">Grooming services tailored for older dogs, often with special handling and care.</p>
+                <div class="mt-auto">
+                  <a href="ttps://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Senior+dog+package+$40+-+$80" class="btn btn-primary mt-auto">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--FULL GROOMING PACKAGE SERVICE-->
+          <section class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Fullgroomingpackage.jpg" alt="Dog wearing a shower cap" aria-hidden="true">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                  <h5 class="card-title">Full grooming package</h5>
+                  <h5 class="card-title">$60 - $120</h5>
+                </div>
+                <p class="card-text">Comprehensive grooming service, including bath, haircut, teeth brushing , nail trim and ear cleaning.</p>
+                <div class="mt-auto">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMmNVr7V0Ju9mM1UERVrHp_DBTas1YQlwtp8-FSMxvlnjhpw/viewform?usp=pp_url&entry.1364234704=Full+grooming+package+$60+-+$120" class="btn btn-primary mt-auto">Book an appointment</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--FOOTER, QUICK LINKS, OPEN HOURS, SOCIAL MEDIA LINKS-->
+  <footer class="container pt-3 border-top mt-auto">
+    <div class="row justify-content-between">
+      <!--FIRST COLUMN "QUICK LINKS"-->
+      <nav class="col-6 col-md-2 mb-3 text-center">
+        <h5>Quick Links</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="services.html" class="nav-link p-0 text-body-secondary">Services</a></li>
+          <li class="nav-item mb-2"><a href="gallery.html" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+          <li class="nav-item mb-2"><a href="booking.html" class="nav-link p-0 text-body-secondary">Booking</a></li>
+          <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
+          <li class="nav-item mb-2"><a href="privacy.html" class="nav-link p-0 text-body-secondary">Privacy</a></li>
+          <li class="nav-item mb-2"><a href="staff/staffaccess.html" class="nav-link p-0 text-body-secondary">Staff</a></li>
+        </ul>
+      </nav>
+      <!--SECOND COLUMN "OPEN HOURS"-->
+      <div class="col-6 col-md-3 mb-3 text-center">
+        <h5>Open Hours</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">Monday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Tuesday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Wednesday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Thursday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Friday: 8.00 am - 5.00 pm</li>
+          <li class="nav-item mb-2">Saturday: 8.00 am - 12.00 pm</li>
+          <li class="nav-item mb-2">Sunday: Closed</li>
+        </ul>
+      </div>
+      <!--THIRD COLUMN "SOCIAL MEDIA"-->
+      <div class="col-6 col-md-2 mb-3 text-center">
+        <h5>Social Media</h5>
+        <ul class="nav flex-column">
+          <li class="mb-2"><a class="link-body-emphasis" href="#" aria-label="Facebook"><i class="bi bi-facebook h3" aria-hidden="true"></i> Facebook</a></li>
+          <li class="mb-2"><a class="link-body-emphasis" href="#" aria-label="Instagram"><i class="bi bi-instagram h3" aria-hidden="true"></i> Instagram</a></li>
+          <li class="mb-2"><a class="link-body-emphasis" href="#" aria-label="Linkedin"><i class="bi bi-linkedin h3" aria-hidden="true"></i> Linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--COPY RIGHT INFORMATION-->
+    <div class="container d-flex flex-column flex-sm-row pt-4 border-top">
+      <p>&copy; 2025 Snazzy Paws Grooming.</p>
+    </div>
+  </footer>
+</body>
+</html>
